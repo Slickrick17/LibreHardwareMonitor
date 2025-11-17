@@ -726,6 +726,36 @@ internal class Identification
                 return Model.PROART_B760_CREATOR_D4;
             case var _ when name.Equals("TUF GAMING B450-PLUS II", StringComparison.OrdinalIgnoreCase):
                 return Model.TUF_GAMING_B450_PLUS_II;
+            case var _ when name.Equals("X870E AORUS ELITE WIFI7", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_ELITE_WIFI7;
+            case var _ when name.Equals("X870E AORUS ELITE WIFI7 ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_ELITE_WIFI7_ICE;
+            case var _ when name.Equals("X870E AORUS MASTER", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_MASTER;
+            case var _ when name.Equals("X870E AORUS ELITE X3D", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_ELITE_X3D;
+            case var _ when name.Equals("X870E AORUS ELITE X3D ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_ELITE_X3D_ICE;
+            case var _ when name.Equals("X870E AORUS MASTER X3D", StringComparison.OrdinalIgnoreCase):
+                return Model.X870E_AORUS_MASTER_X3D;
+            case var _ when name.Equals("X870 AORUS TACHYON ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_AORUS_TACHYON_ICE;
+            case var _ when name.Equals("X870 GAMING WIFI6", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_GAMING_WIFI6;
+            case var _ when name.Equals("X870 EAGLE WIFI7", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_EAGLE_WIFI7;
+            case var _ when name.Equals("X870 GAMING X WIFI7", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_GAMING_X_WIFI7;
+            case var _ when name.Equals("X870 AORUS STEALTH", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_AORUS_STEALTH;
+            case var _ when name.Equals("X870 AORUS STEALTH ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870_AORUS_STEALTH_ICE;
+            case var _ when name.Equals("X870I AORUS PRO ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870I_AORUS_PRO_ICE;
+            case var _ when name.Equals("X870M AORUS ELITE WIFI7", StringComparison.OrdinalIgnoreCase):
+                return Model.X870M_AORUS_ELITE_WIFI7;
+            case var _ when name.Equals("X870M AORUS ELITE WIFI7 ICE", StringComparison.OrdinalIgnoreCase):
+                return Model.X870M_AORUS_ELITE_WIFI7_ICE;
             case var _ when name.Equals("Base Board Product Name", StringComparison.OrdinalIgnoreCase):
             case var _ when name.Equals("To be filled by O.E.M.", StringComparison.OrdinalIgnoreCase):
                 return Model.Unknown;

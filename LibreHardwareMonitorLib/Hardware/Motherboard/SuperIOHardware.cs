@@ -2284,6 +2284,15 @@ internal sealed class SuperIOHardware : Hardware
 
                     case Model.X870_AORUS_ELITE_WIFI7: // ITE IT8696E
                     case Model.X870_AORUS_ELITE_WIFI7_ICE: // ITE IT8696E
+                    case Model.X870_AORUS_TACHYON_ICE:
+                    case Model.X870_GAMING_WIFI6:
+                    case Model.X870_EAGLE_WIFI7:
+                    case Model.X870_GAMING_X_WIFI7:
+                    case Model.X870_AORUS_STEALTH:
+                    case Model.X870_AORUS_STEALTH_ICE:
+                    case Model.X870I_AORUS_PRO_ICE:
+                    case Model.X870M_AORUS_ELITE_WIFI7:
+                    case Model.X870M_AORUS_ELITE_WIFI7_ICE:
                         t.Add(new Temperature("System #1", 0));
                         t.Add(new Temperature("PCH", 1));
                         t.Add(new Temperature("CPU", 2));
@@ -2564,6 +2573,12 @@ internal sealed class SuperIOHardware : Hardware
                     case Model.X870E_AORUS_PRO: // ITE IT8696E
                     case Model.X870E_AORUS_PRO_ICE: // ITE IT8696E
                     case Model.X870E_AORUS_XTREME_AI_TOP: // ITE IT8696E
+                    case Model.X870E_AORUS_ELITE_WIFI7:
+                    case Model.X870E_AORUS_ELITE_WIFI7_ICE:
+                    case Model.X870E_AORUS_MASTER:
+                    case Model.X870E_AORUS_ELITE_X3D:
+                    case Model.X870E_AORUS_ELITE_X3D_ICE:
+                    case Model.X870E_AORUS_MASTER_X3D:
                         v.Add(new Voltage("Vcore", 0, 0, 1));
                         v.Add(new Voltage("+3.3V", 1, 6.49F, 10));
                         v.Add(new Voltage("+12V", 2, 5, 1));
@@ -2899,6 +2914,12 @@ internal sealed class SuperIOHardware : Hardware
                     case Model.X870E_AORUS_PRO:
                     case Model.X870E_AORUS_PRO_ICE: // ITE IT87952E
                     case Model.X870E_AORUS_XTREME_AI_TOP: // ITE IT87952E
+                    case Model.X870E_AORUS_ELITE_WIFI7:
+                    case Model.X870E_AORUS_ELITE_WIFI7_ICE:
+                    case Model.X870E_AORUS_MASTER:
+                    case Model.X870E_AORUS_ELITE_X3D:
+                    case Model.X870E_AORUS_ELITE_X3D_ICE:
+                    case Model.X870E_AORUS_MASTER_X3D:
                         v.Add(new Voltage("VIN0", 0));
                         v.Add(new Voltage("Voltage #2", 1, true));
                         v.Add(new Voltage("PM_VCC18", 2));
@@ -2921,6 +2942,15 @@ internal sealed class SuperIOHardware : Hardware
 
                     case Model.X870_AORUS_ELITE_WIFI7: // ITE IT87952E
                     case Model.X870_AORUS_ELITE_WIFI7_ICE: // ITE IT87952E
+                    case Model.X870_AORUS_TACHYON_ICE:
+                    case Model.X870_GAMING_WIFI6:
+                    case Model.X870_EAGLE_WIFI7:
+                    case Model.X870_GAMING_X_WIFI7:
+                    case Model.X870_AORUS_STEALTH:
+                    case Model.X870_AORUS_STEALTH_ICE:
+                    case Model.X870I_AORUS_PRO_ICE:
+                    case Model.X870M_AORUS_ELITE_WIFI7:
+                    case Model.X870M_AORUS_ELITE_WIFI7_ICE:
                         v.Add(new Voltage("Vcore", 0));
                         v.Add(new Voltage("DIMM I/O", 1));
                         v.Add(new Voltage("Chipset +0.82V", 2));
